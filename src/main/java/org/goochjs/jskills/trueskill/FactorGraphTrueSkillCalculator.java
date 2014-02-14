@@ -8,7 +8,7 @@ import java.util.EnumSet;
 import java.util.List;
 import java.util.Map;
 
-import org.ejml.data.SimpleMatrix;
+import org.ejml.simple.SimpleMatrix;
 import org.goochjs.jskills.GameInfo;
 import org.goochjs.jskills.Guard;
 import org.goochjs.jskills.IPlayer;

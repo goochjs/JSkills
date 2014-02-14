@@ -9,7 +9,6 @@ public class KeyedVariable<TKey, TValue> extends Variable<TValue> {
 		this.key = key;
 	}
 	
-	@java.lang.SuppressWarnings("all")
 	public TKey getKey() {
 		return this.key;
 	}

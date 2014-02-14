@@ -3,3 +3,5 @@ deploy
 deploy/*
 test-output
 /target
+.classpath
+.project
