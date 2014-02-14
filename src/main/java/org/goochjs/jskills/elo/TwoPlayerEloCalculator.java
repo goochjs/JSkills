@@ -1,4 +1,4 @@
-package jskills.elo;
+package org.goochjs.jskills.elo;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -8,14 +8,14 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import jskills.GameInfo;
-import jskills.IPlayer;
-import jskills.PairwiseComparison;
-import jskills.RankSorter;
-import jskills.Rating;
-import jskills.SkillCalculator;
-import jskills.ITeam;
-import jskills.numerics.Range;
+import org.goochjs.jskills.GameInfo;
+import org.goochjs.jskills.IPlayer;
+import org.goochjs.jskills.ITeam;
+import org.goochjs.jskills.PairwiseComparison;
+import org.goochjs.jskills.RankSorter;
+import org.goochjs.jskills.Rating;
+import org.goochjs.jskills.SkillCalculator;
+import org.goochjs.jskills.numerics.Range;
 
 public abstract class TwoPlayerEloCalculator extends SkillCalculator {
 

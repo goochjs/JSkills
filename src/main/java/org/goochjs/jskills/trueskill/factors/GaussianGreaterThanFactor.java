@@ -1,10 +1,11 @@
-package jskills.trueskill.factors;
+package org.goochjs.jskills.trueskill.factors;
 
-import jskills.factorgraphs.Message;
-import jskills.factorgraphs.Variable;
-import jskills.numerics.GaussianDistribution;
-import static jskills.numerics.GaussianDistribution.*;
-import static jskills.trueskill.TruncatedGaussianCorrectionFunctions.*;
+import org.goochjs.jskills.factorgraphs.Message;
+import org.goochjs.jskills.factorgraphs.Variable;
+import org.goochjs.jskills.numerics.GaussianDistribution;
+
+import static org.goochjs.jskills.numerics.GaussianDistribution.*;
+import static org.goochjs.jskills.trueskill.TruncatedGaussianCorrectionFunctions.*;
 
 /**
  * Factor representing a team difference that has exceeded the draw margin.

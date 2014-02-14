@@ -1,6 +1,6 @@
-package jskills.trueskill;
+package org.goochjs.jskills.trueskill;
 
-import static jskills.numerics.MathUtils.square;
+import static org.goochjs.jskills.numerics.MathUtils.square;
 
 import java.util.Collection;
 import java.util.EnumSet;
@@ -9,15 +9,15 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import jskills.GameInfo;
-import jskills.Guard;
-import jskills.IPlayer;
-import jskills.ITeam;
-import jskills.PairwiseComparison;
-import jskills.RankSorter;
-import jskills.numerics.Range;
-import jskills.Rating;
-import jskills.SkillCalculator;
+import org.goochjs.jskills.GameInfo;
+import org.goochjs.jskills.Guard;
+import org.goochjs.jskills.IPlayer;
+import org.goochjs.jskills.ITeam;
+import org.goochjs.jskills.PairwiseComparison;
+import org.goochjs.jskills.RankSorter;
+import org.goochjs.jskills.Rating;
+import org.goochjs.jskills.SkillCalculator;
+import org.goochjs.jskills.numerics.Range;
 
 /**
  * Calculates the new ratings for only two players.

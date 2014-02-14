@@ -1,9 +1,10 @@
-package jskills.trueskill.factors;
+package org.goochjs.jskills.trueskill.factors;
 
-import jskills.factorgraphs.Message;
-import jskills.factorgraphs.Variable;
-import jskills.numerics.GaussianDistribution;
-import static jskills.numerics.GaussianDistribution.*;
+import org.goochjs.jskills.factorgraphs.Message;
+import org.goochjs.jskills.factorgraphs.Variable;
+import org.goochjs.jskills.numerics.GaussianDistribution;
+
+import static org.goochjs.jskills.numerics.GaussianDistribution.*;
 
 /**
  * Supplies the factor graph with prior information.

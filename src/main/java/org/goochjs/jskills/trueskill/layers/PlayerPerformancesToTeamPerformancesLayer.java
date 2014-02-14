@@ -1,18 +1,18 @@
-package jskills.trueskill.layers;
+package org.goochjs.jskills.trueskill.layers;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import jskills.IPlayer;
-import jskills.PartialPlay;
-import jskills.factorgraphs.KeyedVariable;
-import jskills.factorgraphs.Schedule;
-import jskills.factorgraphs.ScheduleStep;
-import jskills.factorgraphs.Variable;
-import jskills.numerics.GaussianDistribution;
-import jskills.trueskill.TrueSkillFactorGraph;
-import jskills.trueskill.factors.GaussianWeightedSumFactor;
+import org.goochjs.jskills.IPlayer;
+import org.goochjs.jskills.PartialPlay;
+import org.goochjs.jskills.factorgraphs.KeyedVariable;
+import org.goochjs.jskills.factorgraphs.Schedule;
+import org.goochjs.jskills.factorgraphs.ScheduleStep;
+import org.goochjs.jskills.factorgraphs.Variable;
+import org.goochjs.jskills.numerics.GaussianDistribution;
+import org.goochjs.jskills.trueskill.TrueSkillFactorGraph;
+import org.goochjs.jskills.trueskill.factors.GaussianWeightedSumFactor;
 
 public class PlayerPerformancesToTeamPerformancesLayer extends
     TrueSkillFactorGraphLayer<KeyedVariable<IPlayer, GaussianDistribution>, 

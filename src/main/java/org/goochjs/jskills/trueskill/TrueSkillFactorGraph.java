@@ -1,4 +1,4 @@
-package jskills.trueskill;
+package org.goochjs.jskills.trueskill;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -7,24 +7,24 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import jskills.GameInfo;
-import jskills.IPlayer;
-import jskills.ITeam;
-import jskills.Rating;
-import jskills.factorgraphs.Factor;
-import jskills.factorgraphs.FactorGraph;
-import jskills.factorgraphs.FactorGraphLayerBase;
-import jskills.factorgraphs.FactorList;
-import jskills.factorgraphs.KeyedVariable;
-import jskills.factorgraphs.Schedule;
-import jskills.factorgraphs.ScheduleSequence;
-import jskills.numerics.GaussianDistribution;
-import jskills.trueskill.layers.IteratedTeamDifferencesInnerLayer;
-import jskills.trueskill.layers.PlayerPerformancesToTeamPerformancesLayer;
-import jskills.trueskill.layers.PlayerPriorValuesToSkillsLayer;
-import jskills.trueskill.layers.PlayerSkillsToPerformancesLayer;
-import jskills.trueskill.layers.TeamDifferencesComparisonLayer;
-import jskills.trueskill.layers.TeamPerformancesToTeamPerformanceDifferencesLayer;
+import org.goochjs.jskills.GameInfo;
+import org.goochjs.jskills.IPlayer;
+import org.goochjs.jskills.ITeam;
+import org.goochjs.jskills.Rating;
+import org.goochjs.jskills.factorgraphs.Factor;
+import org.goochjs.jskills.factorgraphs.FactorGraph;
+import org.goochjs.jskills.factorgraphs.FactorGraphLayerBase;
+import org.goochjs.jskills.factorgraphs.FactorList;
+import org.goochjs.jskills.factorgraphs.KeyedVariable;
+import org.goochjs.jskills.factorgraphs.Schedule;
+import org.goochjs.jskills.factorgraphs.ScheduleSequence;
+import org.goochjs.jskills.numerics.GaussianDistribution;
+import org.goochjs.jskills.trueskill.layers.IteratedTeamDifferencesInnerLayer;
+import org.goochjs.jskills.trueskill.layers.PlayerPerformancesToTeamPerformancesLayer;
+import org.goochjs.jskills.trueskill.layers.PlayerPriorValuesToSkillsLayer;
+import org.goochjs.jskills.trueskill.layers.PlayerSkillsToPerformancesLayer;
+import org.goochjs.jskills.trueskill.layers.TeamDifferencesComparisonLayer;
+import org.goochjs.jskills.trueskill.layers.TeamPerformancesToTeamPerformanceDifferencesLayer;
 
 public class TrueSkillFactorGraph extends FactorGraph<TrueSkillFactorGraph>
 {

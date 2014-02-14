@@ -1,6 +1,6 @@
-package jskills.trueskill;
+package org.goochjs.jskills.trueskill;
 
-import static jskills.numerics.GaussianDistribution.*;
+import static org.goochjs.jskills.numerics.GaussianDistribution.*;
 
 /**
  * These functions from the bottom of page 4 of the TrueSkill paper.

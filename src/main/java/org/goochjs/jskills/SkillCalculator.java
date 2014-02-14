@@ -1,10 +1,10 @@
-package jskills;
+package org.goochjs.jskills;
 
 import java.util.Collection;
 import java.util.EnumSet;
 import java.util.Map;
 
-import jskills.numerics.Range;
+import org.goochjs.jskills.numerics.Range;
 
 /**
  * Base class for all skill calculator implementations.

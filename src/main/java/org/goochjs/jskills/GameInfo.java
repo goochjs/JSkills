@@ -1,4 +1,4 @@
-package jskills;
+package org.goochjs.jskills;
 
 import lombok.Data;
 

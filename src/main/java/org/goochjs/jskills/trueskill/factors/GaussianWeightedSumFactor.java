@@ -1,17 +1,17 @@
-package jskills.trueskill.factors;
+package org.goochjs.jskills.trueskill.factors;
 
-import static jskills.numerics.GaussianDistribution.divide;
-import static jskills.numerics.GaussianDistribution.mult;
-import static jskills.numerics.GaussianDistribution.sub;
+import static org.goochjs.jskills.numerics.GaussianDistribution.divide;
+import static org.goochjs.jskills.numerics.GaussianDistribution.mult;
+import static org.goochjs.jskills.numerics.GaussianDistribution.sub;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import jskills.Guard;
-import jskills.factorgraphs.Message;
-import jskills.factorgraphs.Variable;
-import jskills.numerics.GaussianDistribution;
+import org.goochjs.jskills.Guard;
+import org.goochjs.jskills.factorgraphs.Message;
+import org.goochjs.jskills.factorgraphs.Variable;
+import org.goochjs.jskills.numerics.GaussianDistribution;
 
 /**
  * Factor that sums together multiple Gaussians.

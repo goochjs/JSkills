@@ -1,4 +1,4 @@
-package jskills.factorgraphs;
+package org.goochjs.jskills.factorgraphs;
 
 public class ScheduleLoop<T> extends Schedule<T> {
 

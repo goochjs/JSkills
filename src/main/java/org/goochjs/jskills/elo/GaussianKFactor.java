@@ -1,6 +1,6 @@
-package jskills.elo;
+package org.goochjs.jskills.elo;
 
-import jskills.GameInfo;
+import org.goochjs.jskills.GameInfo;
 
 public class GaussianKFactor extends KFactor {
     // From paper

@@ -21,8 +21,8 @@
             <fileset dir="src">
                 <exclude name="**/*.launch"/>
                 <exclude name="**/*.java"/>
-                <exclude name="jskills/factorgraphs/KeyedVariableFactory.java"/>
-                <exclude name="jskills/factorgraphs/VariableFactory.java"/>
+                <exclude name="org.goochjs.jskills/factorgraphs/KeyedVariableFactory.java"/>
+                <exclude name="org.goochjs.jskills/factorgraphs/VariableFactory.java"/>
             </fileset>
         </copy>
         <copy includeemptydirs="false" todir="bin">
@@ -41,8 +41,8 @@
         <echo message="${ant.project.name}: ${ant.file}"/>
         <javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}">
             <src path="src"/>
-            <exclude name="jskills/factorgraphs/KeyedVariableFactory.java"/>
-            <exclude name="jskills/factorgraphs/VariableFactory.java"/>
+            <exclude name="org.goochjs.jskills/factorgraphs/KeyedVariableFactory.java"/>
+            <exclude name="org.goochjs.jskills/factorgraphs/VariableFactory.java"/>
             <classpath refid="JSkills.classpath"/>
         </javac>
         <javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}">

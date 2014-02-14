@@ -1,4 +1,4 @@
-package jskills.factorgraphs;
+package org.goochjs.jskills.factorgraphs;
 
 import java.util.ArrayList;
 import java.util.List;

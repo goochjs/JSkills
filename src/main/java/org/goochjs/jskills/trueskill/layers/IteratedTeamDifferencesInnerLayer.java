@@ -1,18 +1,18 @@
-package jskills.trueskill.layers;
+package org.goochjs.jskills.trueskill.layers;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import jskills.factorgraphs.Factor;
-import jskills.factorgraphs.Schedule;
-import jskills.factorgraphs.ScheduleLoop;
-import jskills.factorgraphs.ScheduleSequence;
-import jskills.factorgraphs.ScheduleStep;
-import jskills.factorgraphs.Variable;
-import jskills.numerics.GaussianDistribution;
-import jskills.trueskill.TrueSkillFactorGraph;
-import jskills.trueskill.factors.GaussianWeightedSumFactor;
+import org.goochjs.jskills.factorgraphs.Factor;
+import org.goochjs.jskills.factorgraphs.Schedule;
+import org.goochjs.jskills.factorgraphs.ScheduleLoop;
+import org.goochjs.jskills.factorgraphs.ScheduleSequence;
+import org.goochjs.jskills.factorgraphs.ScheduleStep;
+import org.goochjs.jskills.factorgraphs.Variable;
+import org.goochjs.jskills.numerics.GaussianDistribution;
+import org.goochjs.jskills.trueskill.TrueSkillFactorGraph;
+import org.goochjs.jskills.trueskill.factors.GaussianWeightedSumFactor;
 
 // The whole purpose of this is to do a loop on the bottom
 public class IteratedTeamDifferencesInnerLayer extends

@@ -1,4 +1,4 @@
-package jskills.factorgraphs;
+package org.goochjs.jskills.factorgraphs;
 
 public class KeyedVariableFactory<TKey, TValue> extends VariableFactory<TValue> {
 

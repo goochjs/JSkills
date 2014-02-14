@@ -1,16 +1,17 @@
-package jskills.trueskill.factors;
+package org.goochjs.jskills.trueskill.factors;
 
-import static jskills.numerics.GaussianDistribution.cumulativeTo;
-import static jskills.numerics.GaussianDistribution.divide;
-import static jskills.numerics.GaussianDistribution.fromPrecisionMean;
-import static jskills.numerics.GaussianDistribution.logProductNormalization;
-import static jskills.numerics.GaussianDistribution.mult;
-import static jskills.numerics.GaussianDistribution.sub;
-import static jskills.trueskill.TruncatedGaussianCorrectionFunctions.VWithinMargin;
-import static jskills.trueskill.TruncatedGaussianCorrectionFunctions.WWithinMargin;
-import jskills.factorgraphs.Message;
-import jskills.factorgraphs.Variable;
-import jskills.numerics.GaussianDistribution;
+import static org.goochjs.jskills.numerics.GaussianDistribution.cumulativeTo;
+import static org.goochjs.jskills.numerics.GaussianDistribution.divide;
+import static org.goochjs.jskills.numerics.GaussianDistribution.fromPrecisionMean;
+import static org.goochjs.jskills.numerics.GaussianDistribution.logProductNormalization;
+import static org.goochjs.jskills.numerics.GaussianDistribution.mult;
+import static org.goochjs.jskills.numerics.GaussianDistribution.sub;
+import static org.goochjs.jskills.trueskill.TruncatedGaussianCorrectionFunctions.VWithinMargin;
+import static org.goochjs.jskills.trueskill.TruncatedGaussianCorrectionFunctions.WWithinMargin;
+
+import org.goochjs.jskills.factorgraphs.Message;
+import org.goochjs.jskills.factorgraphs.Variable;
+import org.goochjs.jskills.numerics.GaussianDistribution;
 
 /**
  * Factor representing a team difference that has not exceeded the draw margin.

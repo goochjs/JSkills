@@ -1,6 +1,6 @@
-package jskills.factorgraphs;
+package org.goochjs.jskills.factorgraphs;
 
-import static jskills.Guard.argumentIsValidIndex;
+import static org.goochjs.jskills.Guard.argumentIsValidIndex;
 
 import java.util.ArrayList;
 import java.util.Collections;

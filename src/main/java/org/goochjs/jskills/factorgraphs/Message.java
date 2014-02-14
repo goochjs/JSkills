@@ -1,4 +1,4 @@
-package jskills.factorgraphs;
+package org.goochjs.jskills.factorgraphs;
 
 import lombok.Getter;
 import lombok.Setter;

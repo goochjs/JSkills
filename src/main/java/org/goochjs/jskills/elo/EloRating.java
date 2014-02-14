@@ -1,6 +1,6 @@
-package jskills.elo;
+package org.goochjs.jskills.elo;
 
-import jskills.Rating;
+import org.goochjs.jskills.Rating;
 
 /**
  * An Elo rating represented by a single number (mean).

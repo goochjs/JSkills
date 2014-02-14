@@ -1,4 +1,4 @@
-package jskills.factorgraphs;
+package org.goochjs.jskills.factorgraphs;
 
 public class DefaultVariable<TValue> extends Variable<TValue> {
 

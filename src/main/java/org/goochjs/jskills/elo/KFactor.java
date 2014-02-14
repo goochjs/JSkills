@@ -1,4 +1,4 @@
-package jskills.elo;
+package org.goochjs.jskills.elo;
 
 public class KFactor {
     private final double value;

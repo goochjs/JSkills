@@ -1,10 +1,11 @@
-package jskills.trueskill.factors;
+package org.goochjs.jskills.trueskill.factors;
 
-import static jskills.numerics.GaussianDistribution.logProductNormalization;
-import jskills.factorgraphs.Factor;
-import jskills.factorgraphs.Message;
-import jskills.factorgraphs.Variable;
-import jskills.numerics.GaussianDistribution;
+import static org.goochjs.jskills.numerics.GaussianDistribution.logProductNormalization;
+
+import org.goochjs.jskills.factorgraphs.Factor;
+import org.goochjs.jskills.factorgraphs.Message;
+import org.goochjs.jskills.factorgraphs.Variable;
+import org.goochjs.jskills.numerics.GaussianDistribution;
 
 public abstract class GaussianFactor extends Factor<GaussianDistribution> {
 

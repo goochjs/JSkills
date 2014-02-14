@@ -1,4 +1,4 @@
-package jskills.elo;
+package org.goochjs.jskills.elo;
 
 import java.util.Collection;
 import java.util.EnumSet;
@@ -7,17 +7,17 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import jskills.GameInfo;
-import jskills.IPlayer;
-import jskills.ITeam;
-import jskills.PairwiseComparison;
-import jskills.Player;
-import jskills.RankSorter;
-import jskills.Rating;
-import jskills.SkillCalculator;
-import jskills.Team;
-import jskills.numerics.MathUtils;
-import jskills.numerics.Range;
+import org.goochjs.jskills.GameInfo;
+import org.goochjs.jskills.IPlayer;
+import org.goochjs.jskills.ITeam;
+import org.goochjs.jskills.PairwiseComparison;
+import org.goochjs.jskills.Player;
+import org.goochjs.jskills.RankSorter;
+import org.goochjs.jskills.Rating;
+import org.goochjs.jskills.SkillCalculator;
+import org.goochjs.jskills.Team;
+import org.goochjs.jskills.numerics.MathUtils;
+import org.goochjs.jskills.numerics.Range;
 
 public class DuellingEloCalculator extends SkillCalculator {
 

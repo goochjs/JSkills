@@ -1,14 +1,14 @@
-package jskills.trueskill.layers;
+package org.goochjs.jskills.trueskill.layers;
 
-import jskills.GameInfo;
-import jskills.factorgraphs.DefaultVariable;
-import jskills.factorgraphs.Variable;
-import jskills.numerics.GaussianDistribution;
-import jskills.trueskill.DrawMargin;
-import jskills.trueskill.TrueSkillFactorGraph;
-import jskills.trueskill.factors.GaussianFactor;
-import jskills.trueskill.factors.GaussianGreaterThanFactor;
-import jskills.trueskill.factors.GaussianWithinFactor;
+import org.goochjs.jskills.GameInfo;
+import org.goochjs.jskills.factorgraphs.DefaultVariable;
+import org.goochjs.jskills.factorgraphs.Variable;
+import org.goochjs.jskills.numerics.GaussianDistribution;
+import org.goochjs.jskills.trueskill.DrawMargin;
+import org.goochjs.jskills.trueskill.TrueSkillFactorGraph;
+import org.goochjs.jskills.trueskill.factors.GaussianFactor;
+import org.goochjs.jskills.trueskill.factors.GaussianGreaterThanFactor;
+import org.goochjs.jskills.trueskill.factors.GaussianWithinFactor;
 
 public class TeamDifferencesComparisonLayer extends
     TrueSkillFactorGraphLayer<Variable<GaussianDistribution>, GaussianFactor, DefaultVariable<GaussianDistribution>>

@@ -1,6 +1,6 @@
-package jskills.elo;
+package org.goochjs.jskills.elo;
 
-import jskills.elo.KFactor;
+import org.goochjs.jskills.elo.KFactor;
 
 /** @see http://ratings.fide.com/calculator_rtd.phtml for details **/
 public class FideKFactor extends KFactor {

@@ -1,4 +1,4 @@
-package jskills.numerics;
+package org.goochjs.jskills.numerics;
 
 import static java.lang.Math.PI;
 import static java.lang.Math.abs;
@@ -7,8 +7,10 @@ import static java.lang.Math.log;
 import static java.lang.Math.max;
 import static java.lang.Math.pow;
 import static java.lang.Math.sqrt;
-import static jskills.numerics.MathUtils.square;
-import jskills.Rating;
+import static org.goochjs.jskills.numerics.MathUtils.square;
+
+import org.goochjs.jskills.Rating;
+
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 

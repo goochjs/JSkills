@@ -1,7 +1,7 @@
-package jskills.elo;
+package org.goochjs.jskills.elo;
 
-import jskills.GameInfo;
-import jskills.numerics.GaussianDistribution;
+import org.goochjs.jskills.GameInfo;
+import org.goochjs.jskills.numerics.GaussianDistribution;
 
 public class GaussianEloCalculator extends TwoPlayerEloCalculator {
     // From the paper

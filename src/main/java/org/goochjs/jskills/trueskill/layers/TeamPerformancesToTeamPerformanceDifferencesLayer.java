@@ -1,12 +1,12 @@
-package jskills.trueskill.layers;
+package org.goochjs.jskills.trueskill.layers;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import jskills.factorgraphs.Variable;
-import jskills.numerics.GaussianDistribution;
-import jskills.trueskill.TrueSkillFactorGraph;
-import jskills.trueskill.factors.GaussianWeightedSumFactor;
+import org.goochjs.jskills.factorgraphs.Variable;
+import org.goochjs.jskills.numerics.GaussianDistribution;
+import org.goochjs.jskills.trueskill.TrueSkillFactorGraph;
+import org.goochjs.jskills.trueskill.factors.GaussianWeightedSumFactor;
 
 public class TeamPerformancesToTeamPerformanceDifferencesLayer extends
     TrueSkillFactorGraphLayer<Variable<GaussianDistribution>, 

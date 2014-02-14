@@ -1,10 +1,11 @@
-package jskills;
+package org.goochjs.jskills;
 
-import static jskills.numerics.MathUtils.square;
+import static org.goochjs.jskills.numerics.MathUtils.square;
 
 import java.util.Collection;
 
-import jskills.numerics.GaussianDistribution;
+import org.goochjs.jskills.numerics.GaussianDistribution;
+
 import lombok.Data;
 
 /** Container for a player's rating. **/

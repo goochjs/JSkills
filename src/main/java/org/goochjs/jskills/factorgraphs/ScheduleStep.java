@@ -1,4 +1,4 @@
-package jskills.factorgraphs;
+package org.goochjs.jskills.factorgraphs;
 
 public class ScheduleStep<T> extends Schedule<T> {
     private final Factor<T> factor;

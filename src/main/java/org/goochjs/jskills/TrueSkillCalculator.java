@@ -1,14 +1,14 @@
-package jskills;
+package org.goochjs.jskills;
 
 import java.util.Collection;
 import java.util.Map;
 
-import jskills.GameInfo;
-import jskills.IPlayer;
-import jskills.ITeam;
-import jskills.Rating;
-import jskills.SkillCalculator;
-import jskills.trueskill.FactorGraphTrueSkillCalculator;
+import org.goochjs.jskills.GameInfo;
+import org.goochjs.jskills.IPlayer;
+import org.goochjs.jskills.ITeam;
+import org.goochjs.jskills.Rating;
+import org.goochjs.jskills.SkillCalculator;
+import org.goochjs.jskills.trueskill.FactorGraphTrueSkillCalculator;
 
 /**
  * Calculates a TrueSkill rating using {@link FactorGraphTrueSkillCalculator}.

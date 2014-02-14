@@ -1,4 +1,4 @@
-package jskills.numerics;
+package org.goochjs.jskills.numerics;
 
 import lombok.Data;
 

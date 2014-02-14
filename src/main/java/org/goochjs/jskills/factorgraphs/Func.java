@@ -1,4 +1,4 @@
-package jskills.factorgraphs;
+package org.goochjs.jskills.factorgraphs;
 
 /**
  * A function that takes no parameters and returns a value of the type specified
