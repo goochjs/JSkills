@@ -10,6 +10,9 @@ DEPENDENCIES
   initialize it. This can be done from this directory via the command
 
     `java -jar lib/lombok.jar`
+    
+  This will run the lombok installer.  Point it at your Eclipse and it'll do its magic.  
+    
 * TestNG
   Running TestNG through the Eclipse plug-in is recommended. Instructions can
   be found on the TestNG site: http://testng.org/doc/download.html

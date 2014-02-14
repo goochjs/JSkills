@@ -57,7 +57,6 @@ public class RankSorter {
             itemToRank.put(itemsInList.get(i), itemRanks[i]);
         
         Collections.sort(itemsInList, new Comparator<T>() {
-            @Override
             public int compare(T o1, T o2) {
                 return itemToRank.get(o1).compareTo(itemToRank.get(o2));
             }
