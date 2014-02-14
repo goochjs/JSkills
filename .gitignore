@@ -2,3 +2,4 @@ bin
 deploy
 deploy/*
 test-output
+/target
