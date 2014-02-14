@@ -8,7 +8,7 @@
 	<groupId>org.goochjs</groupId>
 	<artifactId>goochjs-JSKills</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>bundle</packaging>
 	<description>An OSGi and Maven-compliant implementation of the TrueSkill algorithm.</description>
 	<name>org.goochjs.jskills</name>
 
