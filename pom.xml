@@ -44,12 +44,6 @@
 					<instructions>
 						<Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
 						<Bundle-Version>${project.version}</Bundle-Version>
-						<Export-Package>
-							org.goochjs.JSKills*;version=${project.version}
-						</Export-Package>
-						<Import-Package>
-							*
-						</Import-Package>
 					</instructions>
 				</configuration>
 			</plugin>
